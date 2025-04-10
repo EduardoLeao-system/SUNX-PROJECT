@@ -1,0 +1,85 @@
+/* Espaço no topo da página */
+body {
+  padding-top: 70px;
+}
+
+/* Sidebar padrão (fechada) */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100px;
+  background-color: #2f3e4d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1000;
+  transition: width 0.3s ease;
+}
+
+/* Sidebar quando aberta */
+.sidebar.show {
+  width: 100px;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+/* Imagem/logo da sidebar */
+.sidebar img {
+  width: 40px;
+  height: 40px;
+}
+
+/* Links da sidebar */
+.sidebar a {
+  color: #00ff84;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  transition: color 0.3s ease;
+}
+
+/* Links da sidebar quando aberta: alinhar à esquerda */
+.sidebar.show a {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ícone + texto */
+.sidebar .icon-text {
+  font-size: 10px;
+  margin-top: 5px;
+  color: white;
+  display: none;
+}
+
+/* Mostrar descrições somente quando a sidebar estiver aberta */
+.sidebar.show .icon-text {
+  display: inline;
+  margin-top: 0;
+}
+
+/* Hover nos links */
+.sidebar a:hover {
+  color: #ffffff;
+  background-color: #1c262b;
+  border-radius: 6px;
+}
+
+/* Conteúdo principal */
+.content {
+  margin-left: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+/* Conteúdo deslocado quando a sidebar está expandida */
+.sidebar.show ~ .content {
+  margin-left: 130px;
+}
