@@ -1,6 +1,6 @@
 #  Projeto Sunx
 
-Este é um projeto frontend utilizando **Vue.js 3**, **Bootstrap 5**, e **Font Awesome**, com um layout de dashboard moderna e funcional. O objetivo é desenvolver uma interface moderna e responsiva para a gestão de funcionalidades internas do sistema .
+Este é um projeto frontend utilizando **Vue.js 3**, **Bootstrap 5**, e **Font Awesome**, com um layout de dashboard moderna e funcional o objetivo é desenvolver uma interface moderna e responsiva para a gestão de funcionalidades internas do sistema .
 
 ---
 
