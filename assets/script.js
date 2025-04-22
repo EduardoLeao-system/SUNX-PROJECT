@@ -19,6 +19,7 @@ createApp({
     methods: {
         toggleSidebar() {
             this.isSidebarVisible = !this.isSidebarVisible;
+            this.updateSidebarVisibility();
         }
     }
 }).mount('#app');
