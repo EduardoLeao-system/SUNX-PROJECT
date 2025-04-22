@@ -62,6 +62,13 @@ body {
 .sidebar a {
   color: #00ff84;
   text-decoration: none;
+  font-size: 20px;
+  margin: 17px 0;
+
+  font-size: 23px;
+  margin: 30px 0;
+  font-size: 20px;
+  margin: 17px 0;
 
   font-size: 22px; /* Mantém o tamanho da fonte */
   margin: 15px 0; /* Reduz o espaço entre os links */
