@@ -3,9 +3,9 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            logoPath: '../assets/images/logo.png',
-            isSidebarVisible: true,
-            menuItems: [
+            
+            isSidebarVisible: true, //icones visiveis no sidebar
+            menuItems: [ //icones do sidebar
                 { icon: 'fas fa-shopping-cart', text: 'Compras' },
                 { icon: 'fas fa-rocket', text: 'Lançamentos' },
                 { icon: 'fas fa-chart-bar', text: 'Relatórios' },
