@@ -102,7 +102,7 @@ body {
   display: none;
 }
 
-/* Mostrar descrições somente quando a sidebar estiver aberta */
+/* Mostrar descrições quando a sidebar estiver aberta */
 .sidebar.show .icon-text {
   display: inline;
   margin-top: 0;
