@@ -5,7 +5,7 @@
 npm install
 ```
 
-### Compila e recarrega rapidamente para o execução.
+### Compila e recarrega rapidamente para a execução.
 ```
 npm run serve
 ```
