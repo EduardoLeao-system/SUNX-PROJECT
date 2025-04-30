@@ -5,12 +5,12 @@
 npm install
 ```
 
-### Compila e recarrega rapidamente para o desenvolvimento.
+### Compila e recarrega rapidamente para o execução.
 ```
 npm run serve
 ```
 
-### Compila e minimiza para produção.
+### Compila para produção.
 ```
 npm run build
 ```
