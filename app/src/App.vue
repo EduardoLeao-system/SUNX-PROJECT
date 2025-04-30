@@ -6,8 +6,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import TheHeader from './components/TheHeader';
-
+import TheHeader from './components/TheHeader'
 export default {
   name: 'App',
   components: {

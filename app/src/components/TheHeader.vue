@@ -11,8 +11,6 @@
 </sript>
 
 <style>
-      .header{
+    .header {}
 
-      }
-    
 </style>
