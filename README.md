@@ -11,19 +11,20 @@ npm run serve
 ```
 ### Estrutura de Pastas
 ```
-📦 Projeto Vue.js
-├── 📁 public
-├── 📁 src
-│   ├── 📁 assets
-│   ├── 📁 components
-│   ├──  App.vue
-│   ├──  main.js
-├── ⚙️ .gitignore
-├── ⚙️ 
-├── ⚙️ jsconfig.json
-├── 📦 package.json
-├── 📦 package-lock.json
-└── ⚙️ vue.config.js
+📦 sunx-project  
+├── 📂 node_modules  
+├── 📂 public 
+│   └── 📄 index.html  
+├── 📂 src  
+│   ├── 📂 assets   
+│   ├── 📂 components  
+│   │   ├── 🖋️ TheSidebar.vue  
+│   │   └── 🖋️ App.vue  
+│   └── 📄 main.js  
+├── 📄 .gitignore  
+├── 📄 package-lock.json  
+├── 📄 package.json  
+└── 📄 vite.config.js  
 ```
 ### Lints e correções de arquivos.
 ```
