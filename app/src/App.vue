@@ -1,17 +1,23 @@
 <template>
-  <TheHeader />
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <TheSidebar :isExpanded="isExpanded" />
+    <main class="content">
+    </main>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import TheHeader from './components/TheHeader'
+import TheSidebar from './components/TheSidebar.vue'
+
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    TheHeader
+    TheSidebar,
+  },
+  data() {
+    return {
+      isExpanded: true
+    }
   }
 }
 </script>
@@ -21,8 +27,13 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+  margin-left: 130px;
+  padding: 20px;
 }
 </style>
