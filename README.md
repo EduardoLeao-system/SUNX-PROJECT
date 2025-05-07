@@ -1,6 +1,6 @@
 # Aplicativo
 
-## Configuração do projeto.
+## Intalação do .
 ```
 npm install
 ```
@@ -9,16 +9,25 @@ npm install
 ```
 npm run serve
 ```
-
-### Compila para produção.
+### Estrutura de Pastas
 ```
-npm run build
+📦 Projeto Vue.js
+├── 📁 public
+├── 📁 src
+│   ├── 📁 assets
+│   ├── 📁 components
+│   ├──  App.vue
+│   ├──  main.js
+├── ⚙️ .gitignore
+├── ⚙️ 
+├── ⚙️ jsconfig.json
+├── 📦 package.json
+├── 📦 package-lock.json
+└── ⚙️ vue.config.js
 ```
-
 ### Lints e correções de arquivos.
 ```
 npm run lint
 ```
 
-### Personalizar configuração
-Consulte [Referência de configuração](https://cli.vuejs.org/config/).
+
