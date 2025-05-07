@@ -1,10 +1,19 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import { faShoppingCart, faRocket, faChartBar, faGift, faUser, faCog, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import {
+  faShoppingCart,
+  faRocket,
+  faChartBar,
+  faGift,
+  faUser,
+  faCog,
+  faMapMarkerAlt
+} from '@fortawesome/free-solid-svg-icons'
 
 library.add(faShoppingCart, faRocket, faChartBar, faGift, faUser, faCog, faMapMarkerAlt)
 
