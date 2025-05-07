@@ -18,8 +18,8 @@ npm run serve
 ├── 📂 src  
 │   ├── 📂 assets   
 │   ├── 📂 components  
-│   │   ├── 🖋️ TheSidebar.vue  
-│   │   └── 🖋️ App.vue  
+│   │   ├── TheSidebar.vue  
+│   │   └── App.vue  
 │   └── 📄 main.js  
 ├── 📄 .gitignore  
 ├── 📄 package-lock.json  
