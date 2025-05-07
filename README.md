@@ -1,6 +1,6 @@
 # Aplicativo
 
-## Intalação do .
+## Intalação de dependências .
 ```
 npm install
 ```
