@@ -14,7 +14,8 @@
     </aside>
 
     <div class="content p-4">
-      <!-- Conteúdo da aplicação -->
+      
+
     </div>
   </div>
 </template>
