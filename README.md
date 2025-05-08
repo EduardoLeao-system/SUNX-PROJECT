@@ -1,6 +1,6 @@
 # Aplicativo
 
-## Configuração do projeto.
+## Intalação de dependências .
 ```
 npm install
 ```
@@ -9,16 +9,26 @@ npm install
 ```
 npm run serve
 ```
-
-### Compila para produção.
+### Estrutura de Pastas
 ```
-npm run build
+📦 sunx-project  
+├── 📂 node_modules  
+├── 📂 public 
+│   └── 📄 index.html  
+├── 📂 src  
+│   ├── 📂 assets   
+│   ├── 📂 components  
+│   │   ├── TheSidebar.vue  
+│   │   └── App.vue  
+│   └── 📄 main.js  
+├── 📄 .gitignore  
+├── 📄 package-lock.json  
+├── 📄 package.json  
+└── 📄 vite.config.js  
 ```
-
 ### Lints e correções de arquivos.
 ```
 npm run lint
 ```
 
-### Personalizar configuração
-Consulte [Referência de configuração](https://cli.vuejs.org/config/).
+
