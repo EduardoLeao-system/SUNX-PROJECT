@@ -24,7 +24,7 @@ npm install
 
 ### Compila e recarrega rapidamente para a execução.
 ```
-npm run serve
+npm run dev
 ```
 ### Estrutura de Pastas
 ```
