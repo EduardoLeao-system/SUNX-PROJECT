@@ -1,4 +1,4 @@
-# Aplicativo
+# SUNX-PROJECT
 
 ## Intalação de dependências .
 ```
