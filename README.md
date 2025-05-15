@@ -8,12 +8,14 @@ npm install
 
 - **vite (^6.3.5)**  
   Ferramenta rápida para construção de aplicações web modernas (alternativa ao Webpack). Oferece HMR (Hot Module Replacement) e builds otimizados.  
-  🔗 Documentação do Vite  
-
+  🔗 Documentação do Vite
+  Vite: https://vitejs.dev/
+  
 - **vue (^3.5.13)**  
   O framework Vue 3 para criar interfaces reativas.  
-  🔗 Documentação do Vue  
-
+  🔗 Documentação do Vue
+  Vue.js: https://vuejs.org/
+  
 - **esbuild (^0.25.4)**  
   Um bundler (empacotador) de JavaScript super rápido (usado internamente pelo Vite).  
 
